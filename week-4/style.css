@@ -15,11 +15,9 @@ body {
 }
 
 .photo {
-  width: 300px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .photo img {
@@ -81,4 +79,18 @@ body {
   bottom: 10px;
   right: 10px;
   font-size: 100px;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+}
+
+.pin {
+  position: absolute;
+  z-index: 2;
 }
