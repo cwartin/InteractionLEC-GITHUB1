@@ -39,7 +39,6 @@ body {
   left: 10px;
   font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
 
 .tm-text {
@@ -48,9 +47,7 @@ body {
   top: 10;
   left: 50%;
   transform: translateX(-50%);
-  font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
 
 .tr-text {
@@ -58,9 +55,7 @@ body {
   position: fixed;
   top: 10px;
   right: 10px;
-  font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
 
 .bl-text {
@@ -68,9 +63,7 @@ body {
   position: fixed;
   bottom: 10px;
   left: 10px;
-  font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
 
 .bm-text {
@@ -79,9 +72,7 @@ body {
   bottom: 10;
   left: 50%;
   transform: translateX(-50%);
-  font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
 
 .br-text {
@@ -89,7 +80,5 @@ body {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  font-family: serif;
   font-size: 100px;
-  z-index: 1000;
 }
